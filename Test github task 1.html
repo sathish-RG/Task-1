@@ -4,10 +4,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Form</title>
+  <style>
+    form{
+      padding-top: 20px;
+      text-align: center;
+    }
+    p{
+      text-align: center;
+    }
+    input{
+      margin-top: 10px;
+    }
+    #submit{
+      position: relative;
+      left: -40px;
+    }
+    #number{
+      position: relative;
+      left: -8px;
+    }
+    #num{
+      position: relative;
+      left: -6px;
+    }
+   
+  </style>
 </head>
-<body>
+<body style="background-color: bisque;">
   <form>
-    <input type="email"><input type="text"><input type="number"><input type="submit">
+    <h1>Task Form</h1>
+    <hr>
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Email">
+    <br>
+    <label for="text">Name</label>
+    <input type="text" id="text" placeholder="Name">
+    <br>
+    <label for="number" id="num">Number</label>
+    <input type="number" id="number" placeholder="ph-number">
+    <br>
+    <input type="submit" id="submit">
   </form>
   <p>Added some content from remote</p>
   <p>Added contant frome local</p>
